@@ -1,0 +1,15 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "customizations": {
+    "codespaces": {
+      "repositories": {
+        "srPudinoso/backup": {
+          "permissions": "write-all"
+        },
+        "srPudinoso/server": {
+          "permissions": "write-all"
+        }
+      }
+    }
+  }
+}
